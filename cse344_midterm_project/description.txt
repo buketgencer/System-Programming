@@ -1,0 +1,1 @@
+A concurrent file access system using client-server architecture with semaphores and signal handling.

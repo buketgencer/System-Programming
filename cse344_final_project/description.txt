@@ -1,0 +1,1 @@
+A multi-threaded Pide Shop simulation handling concurrent orders, food preparation, and deliveries using robust synchronization and IPC mechanisms.

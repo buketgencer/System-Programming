@@ -1,0 +1,150 @@
+addStudentGrade Student grade added successfully
+addStudentGrade Student grade added successfully
+addStudentGrade Student grade added successfully
+addStudentGrade Student grade added successfully
+searchStudent Student grade searched successfully
+searchStudent Student grade searched successfully
+searchStudent Student grade searched successfully
+searchStudent Student can not found in the file
+searchStudent Student grade searched successfully
+addStudentGrade Student grade added successfully
+addStudentGrade Student grade added successfully
+addStudentGrade Student grade added successfully
+addStudentGrade Student grade added successfully
+searchStudent Student grade searched successfully
+searchStudent Student grade searched successfully
+searchStudent Student grade searched successfully
+searchStudent Student can not found in the file
+addStudentGrade Student grade added successfully
+searchStudent Student grade searched successfully
+addStudentGrade Student grade added successfully
+searchStudent Student grade searched successfully
+addStudentGrade Student grade added successfully
+addStudentGrade Student grade added successfully
+addStudentGrade Student grade added successfully
+searchStudent Student grade searched successfully
+showAll All student grades displayed successfully
+listGrades First 5 student grades displayed successfully
+listSome Some student grades displayed successfully
+listSome Some student grades displayed successfully
+addStudentGrade Invalid grade format
+addStudentGrade Student grade added successfully
+addStudentGrade Student grade added successfully
+addStudentGrade Student grade added successfully
+searchStudent Student grade searched successfully
+searchStudent Student grade searched successfully
+searchStudent Student grade searched successfully
+searchStudent Student grade searched successfully
+sortAll Student grades sorted successfully
+sortAll Student grades sorted successfully
+sortAll Student grades sorted successfully
+sortAll Student grades sorted successfully
+sortAll Student grades sorted successfully
+sortAll Student grades sorted successfully
+showAll All student grades displayed successfully
+listSome Some student grades displayed successfully
+listSome Student grades displayed successfully
+gtuStudentGrades Usage displayed
+gtuStudentGrades File created successfully
+gtuStudentGrades File created successfully
+addStudentGrade Invalid grade format
+addStudentGrade Invalid grade format
+addStudentGrade Invalid grade format
+addStudentGrade Invalid grade format
+addStudentGrade Student grade added successfully
+addStudentGrade Student grade added successfully
+addStudentGrade Student grade added successfully
+addStudentGrade Student grade added successfully
+addStudentGrade Student grade added successfully
+addStudentGrade Student grade added successfully
+addStudentGrade Student grade added successfully
+addStudentGrade Student grade added successfully
+addStudentGrade Student grade added successfully
+addStudentGrade Student grade added successfully
+addStudentGrade Student grade added successfully
+addStudentGrade Student grade added successfully
+addStudentGrade Student grade added successfully
+addStudentGrade Student grade added successfully
+addStudentGrade Student grade added successfully
+addStudentGrade Student grade added successfully
+addStudentGrade Student grade added successfully
+addStudentGrade Student grade added successfully
+addStudentGrade Invalid grade format
+addStudentGrade Student grade added successfully
+addStudentGrade Student grade added successfully
+Invalid command Invalid command
+Invalid command Invalid command
+searchStudent Student grade searched successfully
+searchStudent Student can not found in the file
+sortAll Student grades sorted successfully
+sortAll Student grades sorted successfully
+sortAll Student grades sorted successfully
+showAll All student grades displayed successfully
+listGrades First 5 student grades displayed successfully
+listGrades First 5 student grades displayed successfully
+listGrades Error displaying first 5 student grades
+listSome Some student grades displayed successfully
+listSome Student grades displayed successfully
+Invalid command Invalid command
+listSome The desired range is not in the file
+listSome Student grades displayed successfully
+listSome Error displaying student grades
+Invalid command Invalid command
+gtuStudentGrades Usage displayed
+addStudentGrade Student grade added successfully
+addStudentGrade Student grade added successfully
+sortAll Student grades sorted successfully
+sortAll Student grades sorted successfully
+searchStudent Student grade searched successfully
+listGrades First 5 student grades displayed successfully
+listGrades First 5 student grades displayed successfully
+listSome Some student grades displayed successfully
+listSome Student grades displayed successfully
+searchStudent Student grade searched successfully
+searchStudent Student grade searched successfully
+Invalid command Invalid command
+sortAll Student grades sorted successfully
+sortAll Student grades sorted successfully
+gtuStudentGrades Usage displayed
+addStudentGrade Student grade added successfully
+searchStudent Student grade searched successfully
+sortAll Student grades sorted successfully
+showAll All student grades displayed successfully
+listGrades First 5 student grades displayed successfully
+listGrades First 5 student grades displayed successfully
+listSome Some student grades displayed successfully
+listSome Student grades displayed successfully
+listGrades First 5 student grades displayed successfully
+listGrades First 5 student grades displayed successfully
+gtuStudentGrades Usage displayed
+addStudentGrade Student grade added successfully
+searchStudent Student grade searched successfully
+sortAll Student grades sorted successfully
+listGrades First 5 student grades displayed successfully
+listGrades First 5 student grades displayed successfully
+listSome Some student grades displayed successfully
+listSome Student grades displayed successfully
+gtuStudentGrades Usage displayed
+Invalid command Invalid command
+Invalid command Invalid command
+Invalid command Invalid command
+gtuStudentGrades Usage displayed
+Invalid command Invalid command
+addStudentGrade Student grade added successfully
+searchStudent Student grade searched successfully
+sortAll Student grades sorted successfully
+Invalid command Invalid command
+Invalid command Invalid command
+sortAll Invalid sort option
+sortAll Student grades sorted successfully
+sortAll Student grades sorted successfully
+Invalid command Invalid command
+Invalid command Invalid command
+showAll All student grades displayed successfully
+listSome Error displaying student grades
+listSome Error displaying student grades
+listSome Error displaying student grades
+listGrades First 5 student grades displayed successfully
+listGrades First 5 student grades displayed successfully
+listSome Some student grades displayed successfully
+listSome Student grades displayed successfully

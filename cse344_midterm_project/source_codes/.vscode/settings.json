@@ -1,0 +1,6 @@
+{
+    "files.associations": {
+        "clientx.h": "c",
+        "stat.h": "c"
+    }
+}

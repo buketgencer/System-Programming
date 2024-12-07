@@ -1,0 +1,1 @@
+An enhanced directory copying utility implementing condition variables and barriers for efficient thread synchronization and resource management.

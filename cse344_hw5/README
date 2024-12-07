@@ -1,0 +1,45 @@
+# Enhanced Directory Copying Utility (MWCp)
+
+This project, developed for the **CSE 344 System Programming course at Gebze Technical University**, builds upon the multi-threaded directory copying utility **MWCp** from Homework 4. The enhanced version introduces **condition variables** and **barriers** to improve thread synchronization and ensure orderly execution of worker-manager activities. The utility is designed to efficiently copy files and subdirectories in parallel, using POSIX and standard C libraries.
+
+## Key Features
+- **Enhanced Synchronization**:
+  - **Condition Variables**: Used to signal the state of the buffer (empty or full) between manager and worker threads.
+  - **Barriers**: Ensure all worker threads synchronize at specific stages of execution.
+- **Multi-Threaded Design**:
+  - A **manager thread** organizes file paths and adds them to a shared buffer.
+  - **Worker threads** fetch file paths from the buffer to perform copying operations.
+- **Error Handling**:
+  - Handles invalid inputs, file descriptor limits, and system errors gracefully.
+- **Resource Management**:
+  - Implements proper memory and resource cleanup, validated through tools like `valgrind`.
+- **Signal Handling**:
+  - Gracefully shuts down on `Ctrl+C`, releasing all allocated resources and terminating threads cleanly.
+
+## Improvements Over HW4
+1. **Condition Variables**:
+   - Enables manager and worker threads to wait and signal each other based on buffer state.
+   - Prevents busy waiting, ensuring efficient thread operations.
+2. **Barriers**:
+   - Ensures all worker threads complete a phase before proceeding, improving synchronization.
+3. **Performance Enhancements**:
+   - Optimized buffer usage and worker thread coordination for faster directory copying.
+4. **Testing**:
+   - Includes additional test scenarios to analyze performance with varying buffer sizes and worker counts.
+
+## Usage
+1. Clone the repository and navigate to the project directory.
+2. Compile the code using the provided Makefile:
+   ```bash
+   make
+
+
+Run the program with the following syntax:
+./MWCp <buffer_size> <number_of_workers> <source_directory> <destination_directory>
+
+./MWCp 10 4 ./source ./destination
+
+Testing Scenarios
+Test 1: ./MWCp 10 10 ./testdir ./tocopy (buffer size: 10, workers: 10)
+Test 2: ./MWCp 10 4 ./testdir ./tocopy (buffer size: 10, workers: 4)
+Test 3: ./MWCp 10 100 ./testdir ./tocopy (buffer size: 10, workers: 100)

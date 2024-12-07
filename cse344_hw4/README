@@ -1,0 +1,45 @@
+# MWCp: Multi-Threaded Directory Copying Utility
+
+This project, developed for the **CSE 344 System Programming course at Gebze Technical University**, implements a multi-threaded directory copying utility named **MWCp**. The program uses a **worker-manager approach** to copy files and subdirectories in parallel, ensuring efficient synchronization and resource management with POSIX and standard C libraries.
+
+## Key Features
+- **Multi-Threaded Architecture**:
+  - A single **manager thread** handles reading and organizing file paths from the source directory.
+  - A **worker thread pool** copies files and subdirectories to the destination directory in parallel.
+- **Synchronization**:
+  - A shared buffer is used for communication between the manager and workers, with synchronization mechanisms to avoid race conditions.
+- **Error Handling**:
+  - Handles file opening and truncation errors gracefully, providing informative messages.
+- **Performance Monitoring**:
+  - Measures execution time and maintains statistics on the number and types of files copied.
+- **Signal Handling**:
+  - Properly handles termination signals (`Ctrl+C`) for graceful shutdown.
+- **Memory Management**:
+  - Ensures no memory leaks by explicitly freeing resources and validating with `valgrind`.
+
+## How It Works
+1. **Manager Thread**:
+   - Scans the source directory and queues file paths into a shared buffer.
+   - Signals workers to process the files.
+2. **Worker Threads**:
+   - Fetch file paths from the buffer and perform the copying operation.
+   - Outputs the completion status of each file operation.
+3. **Testing**:
+   - The program is tested with different buffer sizes and worker thread counts to evaluate performance under various conditions.
+
+## Usage
+1. Compile the program using the provided Makefile:
+   ```bash
+   make
+Run the program with the following arguments:
+
+bash
+./MWCp <buffer_size> <number_of_workers> <source_directory> <destination_directory>
+Example:
+
+bash
+
+./MWCp 10 4 ./source ./destination
+Test scenarios:
+
+Various combinations of buffer sizes and worker counts, including checks for memory leaks and file descriptor limits using valgrind.

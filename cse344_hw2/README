@@ -1,0 +1,22 @@
+# Inter-Process Communication Using FIFOs
+
+This project, developed for the **CSE 344 System Programming course at Gebze Technical University**, demonstrates the use of **FIFOs (named pipes)** for inter-process communication (IPC) in a Linux environment. The system consists of a parent process managing two child processes to perform synchronized data processing tasks.
+
+## Key Features
+- **Inter-Process Communication (IPC)**: Utilizes FIFOs to transmit data and commands between processes.
+- **Signal Handling**: Implements `SIGCHLD` signal handling to manage child process termination and prevent zombie processes.
+- **Process Management**: Uses `fork()` to create child processes, with tasks assigned for data reading, writing, and mathematical operations.
+- **Error Handling**: Ensures robust performance with detailed error checking and recovery mechanisms.
+- **Resource Cleanup**: Closes and unlinks FIFOs to maintain system integrity.
+
+## How It Works
+1. The **parent process** initializes FIFOs and creates two child processes.
+2. **Child 1** reads data (e.g., an array of integers) from a FIFO and processes it.
+3. **Child 2** reads a command (e.g., "multiply") and performs the corresponding operation.
+4. **Signal handlers** ensure that terminated child processes are reaped, avoiding zombies.
+
+## Usage
+1. Clone this repository.
+2. Compile the code using the provided Makefile:
+   ```bash
+   make

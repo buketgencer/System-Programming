@@ -1,0 +1,1 @@
+A Linux-based IPC project utilizing FIFOs for inter-process communication, process synchronization, and robust error handling.

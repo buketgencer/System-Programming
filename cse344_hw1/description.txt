@@ -1,0 +1,1 @@
+A C-based Student Grade Management System implementing concurrent processing and file operations, designed for efficient grade management.

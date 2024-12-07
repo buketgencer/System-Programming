@@ -1,0 +1,19 @@
+# Student Grade Management System
+
+This project, developed for the **CSE 344 System Programming course at Gebze Technical University**, implements a Student Grade Management System using the C programming language. The system allows users to perform various operations, including adding grades, searching for specific student grades, sorting them, and displaying them in an organized manner.
+
+## Key Features
+- **Grade Management**: Add, search, sort, and display student grades efficiently.
+- **File Operations**: Uses `open()`, `read()`, `write()`, and `close()` system calls for file management.
+- **Concurrent Processing**: Utilizes `fork()` to enable multitasking and improve performance.
+- **Logging**: Records all operations in a log file for auditing and debugging.
+- **Makefile**: Simplifies compilation and execution with predefined commands.
+- **Valgrind Integration**: Ensures memory management stability and detects leaks.
+
+The system is designed to provide a comprehensive platform for managing student grades while demonstrating core system programming concepts such as process creation and inter-process communication.
+
+## How to Run
+1. Clone this repository.
+2. Use the provided Makefile to compile the project:
+   ```bash
+   make

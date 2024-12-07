@@ -1,0 +1,26 @@
+# Parking System Simulation with Multithreading and Semaphores
+
+This project, developed for the **CSE 344 System Programming course at Gebze Technical University**, implements a parking system simulation using **multithreading** and **semaphore synchronization** in a Linux environment. It demonstrates effective thread management and synchronization to handle vehicle parking operations, ensuring resource contention is resolved efficiently.
+
+## Key Features
+- **Multithreading**: Simulates vehicle owners and parking attendants with dynamic thread creation.
+- **Semaphore Synchronization**: Ensures orderly access to parking spaces and prevents conflicts.
+- **Signal Handling**: Gracefully handles termination signals (e.g., `SIGINT`) to clean up resources and stop threads safely.
+- **Dynamic Operations**: Continuously generates threads to simulate random vehicle arrivals.
+- **Efficient Resource Management**: Avoids deadlocks and ensures reliable system shutdown.
+
+## How It Works
+1. **Vehicle Threads**:
+   - **AutomobileOwner**: Manages parking attempts for cars.
+   - **PickupOwner**: Manages parking attempts for pickups.
+   - **Parking Attendants**: Handle the parking and removal of vehicles.
+2. **Synchronization**:
+   - Semaphores are used to manage parking space availability and coordinate vehicle parking with attendants.
+3. **Graceful Shutdown**:
+   - Signal handling ensures all threads terminate cleanly, and resources are freed.
+
+## Usage
+1. Clone the repository.
+2. Compile the code using the provided Makefile:
+   ```bash
+   make

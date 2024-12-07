@@ -1,0 +1,1 @@
+A parking system simulation using multithreading and semaphore synchronization to manage vehicle parking efficiently.
